@@ -1,0 +1,54 @@
+body{
+    font-family: poppins;
+    background-color: brown;
+    margin: 50px 50px 50px 50;
+    
+}
+
+
+p{
+    background-color: rgb(250, 109, 109);
+    color: rgb(11, 61, 126);
+    font-size: 18px;
+    font-weight: bold;
+
+    line-height: 2;
+    text-align: center;
+    padding: 50px 50px 0px 0px;
+
+    border-radius: 20px;
+}
+
+.budi{
+    background-color: rgb(250, 109, 109);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px ;
+    
+     line-height: 2;
+    text-align: center;
+    
+
+}
+.budi .alex{
+    background-color: rgb(197, 197, 197);
+    color: rgb(23, 23, 24);
+    font-size: 18px;
+    font-weight: bold;
+     line-height: 2;
+    text-align: center;
+   
+    margin bottom: 20px;
+
+}
+.budi .slebew{
+    background-color: rgb(3, 1, 1);
+    color: rgb(182, 61, 172);
+    font-size: 18px;
+    font-weight: bold;
+   line-height: 2;
+    text-align: center;
+  
+
+}

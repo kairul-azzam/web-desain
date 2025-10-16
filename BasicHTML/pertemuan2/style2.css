@@ -1,0 +1,139 @@
+.jurusan{
+    font-family: poppins;
+    display: flex;
+    margin: 0px 250px 0px 250px
+}
+
+p{
+    color: black;
+    font-family: poppins;
+    text-align: center;
+}
+
+h4{
+    font-family: poppins;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #0c084c;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+.jurusan .tkj{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Kustomisasi TKJ */
+.jurusan .tkj .tombolTkj{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.jurusan .tkj .descTkj{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+
+.donlotTkj{
+    background-color: #0c084c;
+    color: #ededed;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 45px;   
+}
+
+/* Kustomisasi DKV */
+
+.jurusan .dkv .tombolDkv{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.descDkv{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+
+.donlotDkv{
+    background-color: #0c084c;
+    color: #ededed;         
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 45px;   
+    text-align: center;
+}
+
+.jurusan .dkv{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Kustomisasi RPL */
+
+.jurusan .rpl{
+    background-color: #ededed;
+    color: rgb(95, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.jurusan .rpl .tombolRpl{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.descRpl{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+
+.donlotRpl{
+    background-color: #0c084c;
+    color: #ededed;         
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 45px;   
+}
+
+.jurusan .rpl{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+
