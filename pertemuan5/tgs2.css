@@ -1,4 +1,87 @@
 body{
-    background-color: rgb(121, 137, 151);
+    background-color: rgb(133, 133, 133);
+    font-family: poppins;
+    background-image: url(aset/rishab-lamichhane-r1Y2npWGKhU-unsplash.jpg);
+    background-size: cover;
 }
-.container
+.container{
+    width: 50%;
+    background-color: aqua;
+    margin: auto;
+    background-image: url(aset/lou-batier-5EoWFa_Htdo-unsplash.jpg);
+    border-radius: 9px;
+    background-size: cover;
+    box-shadow: 10px 10px 50px 10px black;
+}
+.menu{
+    display: flex;
+    margin: 5%;
+}    
+.menu2{
+    color: rgb(165, 165, 165);
+    margin: 4% 0% 0% 10%;
+}
+.tekstgh{
+    color: rgb(165, 165, 165);
+    margin-left: 5%;
+}
+.create{
+    color: white;
+}
+input[type="text"]{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border-style: none;
+    width: 25%;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 1% 0% 0% 5%;
+}
+.isian{
+    padding: 9px;
+    background-color: aliceblue;
+}
+input[type="teks"]{
+    background-color: rgb(61, 61, 61);
+    margin: 1% 0% 0% 5%;
+    border-style: none;
+    width: 59%;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.button{
+    color: white;
+    display: flex;
+    margin: 3%;
+    padding: 3%;
+}
+.method{
+    border-radius: 30px;
+    background-color: rgb(99, 99, 99);
+    padding: 12px 19px 12px 19px;
+}
+.buatakun{
+    border-radius: 30px;
+    background-color: rgb(32, 76, 221);
+    padding: 12px 19px 12px 19px;
+}
+i{
+    color: rgb(58, 69, 214);
+}
+#togglePassword {
+  position: absolute;
+  right: 820px;
+  top: 50%;
+  transform: translateY(-10%);
+  cursor: pointer;
+}
+#password {
+  background-color: rgb(61, 61, 61);
+    margin: 1% 0% 0% 5%;
+    border-style: none;
+    width: 59%;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
