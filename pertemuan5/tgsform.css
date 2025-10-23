@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: poppins;
+    background-color: #A52C6F;
+}
+
+.container{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #DD7EB2;
+}
+.sign-in{
+    color: rgb(0, 0, 0);
+}
+input[type="text"]{
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+}
+.gambarorg{
+    margin: 0% 0% 0% 0%;
+    /* background-color: aquamarine; */
+    padding: 9% 2% 20% 2%;
+}
+.ashiap{
+    margin: -28% 0% 0% 55%;
+    /* background-color: #0ccc; */
+}
+.tombolsignin{
+    background-color: blue;
+    border-radius: 5px;
+}

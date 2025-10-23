@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link rel="stylesheet" href="stylerslider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #a39696;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 50%;
+      height: 50%;
+      margin-top: 10%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 9px;
+    }
+  </style>
+</head>
+<body>
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="aset/ken-cheung-KonWFWUaAuk-unsplash.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="aset/luca-bravo-zAjdgNXsMeg-unsplash.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="aset/pine-watt-2Hzmz15wGik-unsplash.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="aset/robert-lukeman-_RBcxo9AU-U-unsplash.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="aset/Screenshot 2025-10-01 112419.png" alt=""></div>
+  </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {});
+  </script>
+</body>
+</html>
