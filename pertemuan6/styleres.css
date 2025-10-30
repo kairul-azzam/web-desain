@@ -1,0 +1,28 @@
+.teks1{
+    background-color: rgb(250, 100, 100);
+    text-align: center;
+}
+.teks2{
+    background-color: lime;
+    text-align: center;
+}
+.kotak1{
+    background-color: grey;
+}
+.kotak2{
+    background-color: rgb(40, 127, 241);
+}
+.container{
+    display: flex;
+    padding: 5%;
+    margin: 5%;
+}
+@media screen and (max-width: 430px){
+  .kotak1{
+    background-color: yellow;
+  }
+  .kotak2{
+    background-color: red
+  }
+  
+}

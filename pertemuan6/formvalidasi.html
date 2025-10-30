@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validasi</title>
+    <link rel="stylesheet" href="validasi.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <h2>Form pendaftaran</h2>
+        <form id="myform" action="">
+            <div class="formgroup">
+                <label for="nama">nama :</label>
+                <input type="text" id="nama"  placeholder="masukkan nama">
+                <div class="error" id="nameerror"></div>
+            </div>
+
+            <div class="formgroup">
+                <label for="email">email :</label>
+                <input type="email" id="email"  placeholder="masukkan email">
+                 <div class="error" id="emailerror"></div>
+            </div>
+
+            <div class="formgroup">
+                <label for="password">password :</label>
+                <input type="password" id="password"  placeholder="minimal 6 karakter">
+                 <div class="error" id="passworderror"></div>
+            </div>
+            <button type="submit">daftar</button>
+        </form>
+    </div>
+    <script>
+        const form = document.getElementById("myform");
+        const nama = document.getElementById("nama");
+        const email = document.getElementById("email");
+        const password = document.getElementById("password");
+
+       const nameerror = document.getElementById("nameerror");
+       const emailerror = document.getElementById("emailerror");
+       const passworderror = document.getElementById("passworderror");
+
+       form.addEventListener("submit", function(event){
+       event.preventDefault();
+        //reset pesan error
+       nameerror.textContent = "";
+       emailerror.textContent = "";
+       passworderror.textContent = "";
+
+       //validasi nama
+       
+       if (nama.value.trim() === ""){
+        nameerror.textContent = "nama harus diisi";
+       }
+
+         //validasi email
+       const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+       if (email.value.trim() === ""){
+        emailerror.textContent = "email harus diisi";
+
+       }else if (!email.value.match(emailPattern)){
+          emailerror.textContent = "format email tidak valid";
+         }
+
+            //validasi password
+       if (password.value.trim() === ""){
+        passworderror.textContent = "password harus diisi";
+       } else if (password.value.length < 6){
+        passworderror.textContent = "password minimal 6 karakter";
+       }
+
+
+    
+        })
+       
+
+    </script>
+</body>
+</html>

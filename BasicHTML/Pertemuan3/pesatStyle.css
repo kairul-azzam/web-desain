@@ -319,3 +319,71 @@ ul li{
 .gambar:hover{
     transform: scale(1.05);
 }
+@media screen and (max-width: 430px){
+        .navbar{
+            flex-direction: column;
+        }
+        .menu ul{
+            flex-direction: column;
+            padding: 0%;
+           gap: 4px;
+        }
+        .jurusannn{
+           margin: 7% 0% 0% -13%;
+        }
+        .hero{
+            flex-direction: column;
+        }
+        .container{
+            width: 95%;
+        }
+        .kontakWA{
+           flex-direction: column;
+           gap: 1px;
+           margin: auto;
+        }
+        .daftar-Btn{
+            margin: -10% 0% 3% 0%;
+            background-color: #F1A204;
+        }
+        .logo{
+            text-align: center;
+            padding: 0%;
+            /* background-color: #555; */
+            width: 40%;
+            margin: auto;
+            padding-right: 10px;
+            
+        }
+        .contactMe{
+            padding: 4px 9px 4px 9px;
+        }
+        .photoOrang{
+            margin: 0% 0% 0% -20%;
+            width: 100%;
+        }
+        .kartu{
+            flex-direction: column;
+        }
+        .card{
+            margin: 2% 0% 2% 0%;
+        }
+        .jurusan{
+            flex-direction: column;
+            width: 90%;
+            margin: 0% 0% 0% 5%;
+        }
+        .gallery{
+            flex-direction: column;
+            /* align-items: center; */
+            width: 340%;
+        }
+        .fotoPartner{
+            flex-direction: column;
+            gap: 16px;
+
+        }
+        .partner-gambar{
+            width: 40%;
+        }
+}
